@@ -1,0 +1,14 @@
+.title{
+    margin: 1em;
+    font-size: 3em;
+}
+.card{
+    background-color: #D9D9D9;
+    opacity: 50%;
+}
+p{
+    opacity: 100%;
+}
+.tip{
+    margin: 2em;
+}
