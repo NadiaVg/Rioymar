@@ -1,0 +1,42 @@
+body {
+    background-color: #F3EEF6;
+    height: 100vh;
+}
+
+.profile {
+    margin-right: 50px;
+    margin-top: 20px;
+    width: 150px;
+    height: 150px;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+mat-icon {
+    margin: 40px;
+    height: 90px;
+    width:100px;
+    font-size: 100px;
+}
+
+.icon_name{
+    margin-inline: 40px;
+    font-size: 25px;
+}
+.home{
+    margin-left: 10px;
+    margin-top: 120px;
+
+    font-size: 60px;
+}
+.logout{
+    position: absolute;
+    margin-left: 140px;
+    margin-top: 120px;
+
+    font-size: 60px;
+}

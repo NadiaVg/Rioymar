@@ -1,0 +1,31 @@
+<app-menu></app-menu>
+<body>
+    <div class="center-content">
+        <img class="profile" src="\assets\img\profile.jpg"/>
+        <label>
+            Nadia Vega <br/>
+            52 puntos
+        </label>
+    </div>
+    <br/>
+    <div class="center-content">
+        <mat-icon>favorite_border</mat-icon>
+        <mat-icon>settings</mat-icon>
+    </div>
+    <div class="center-content">
+         <label class="icon_name">
+            Favoritos
+        </label>
+        <label class="icon_name">
+            Ajustes
+        </label>
+    </div>
+    <br/><br/><br/>
+    <div class="center-content">
+        <app-long-button title="Canjear puntos"></app-long-button>
+    </div>
+    <div>
+        <mat-icon class="home" routerLink="/home-page">home</mat-icon>
+        <mat-icon (click)="logout()" class="logout">logout</mat-icon>
+    </div>
+</body>

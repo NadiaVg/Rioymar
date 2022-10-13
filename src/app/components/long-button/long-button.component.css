@@ -1,0 +1,17 @@
+.button{
+    padding: 1em 5em;
+    background: #7F549C;
+    color: white;
+    border-radius: 2em;
+    font-size: large;
+    border:none;
+
+    
+   
+    
+    
+  }
+  .button-click:active{
+    background:#7F549C ;
+    opacity: 70%;
+  }

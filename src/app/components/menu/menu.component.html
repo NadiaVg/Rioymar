@@ -1,0 +1,12 @@
+<mat-toolbar class="menu">
+    <img routerLink="/home-page" class="button_menu icon-click" src="assets/icons/logotipo.png">
+    <span class="spacer"></span>
+    <img id="acceso" *ngIf="miToken == 0" class="acceso" routerLink="/login-page" class="button_menu icon-click"
+        src="assets/icons/icono_perfil.png">
+    <li id="acceso" *ngIf="miToken != 0" class="acceso"><span><strong>Usuario:</strong> {{
+            userName }}</span>
+    </li>
+
+    <span class="icon_spacer"></span>
+    <img class="button_menu icon-click" src="assets/icons/icono_submenu.png">
+</mat-toolbar>

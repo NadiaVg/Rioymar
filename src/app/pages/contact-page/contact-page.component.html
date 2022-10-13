@@ -1,0 +1,41 @@
+<app-menu></app-menu>
+<body>
+    <div  [formGroup]="contactForm">
+        <br />
+        <div class="form">
+            <label class="form-name" for="name">
+                Email:
+            </label>
+            <br />
+            <input class="email" id="email" type="text" formControlName="email"  ng-required="true" 
+            ng-pattern=" ^[a-z]+[a-z0-9._-]+@[a-z]+\.[a-z.]{2,5}$" >
+        </div>
+        <br />
+        <div class="form">
+            <label class="form-name" for="consult">
+                Consulta:
+            </label>
+            <br />
+            <input class="consult" id="consult" type="text" formControlName="consult">
+        </div>
+        <br />
+        <div class="form" align="center">
+            <app-long-button title="Enviar"></app-long-button>
+            <br />
+            <br />
+            <label>
+                empresa@gmail.com
+            </label>
+            <br />
+            <label>
+                659580579
+            </label>
+        </div>
+        <div align="center">
+            <br /><br />
+            <img class="icons" src="assets/icons/instagram.png"/>&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="icons" src="assets/icons/facebook.png" />&nbsp;&nbsp;&nbsp;&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img class="icons" src="assets/icons/telephone.png" />
+        </div>
+    </div>
+</body>

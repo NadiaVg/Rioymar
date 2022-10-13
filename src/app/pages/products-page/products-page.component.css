@@ -1,0 +1,12 @@
+body{
+    background-color: #F3EEF6;
+    height: 150vh;
+  }
+.product {
+    float: left;
+    margin-left: 2em;
+}
+.title{
+    font-family: Verdana;
+    font-size: 2em;
+}

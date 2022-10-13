@@ -1,0 +1,60 @@
+body{
+    background-color: #F3EEF6;
+    height: 100vh;
+}
+.form{
+    margin-left: 2em;
+}
+
+.password{
+    width: 23em;
+    height: 2em;
+}
+
+
+.user{
+    width: 23em;
+    height: 2em;
+}
+
+input{
+    background: #D9D9D9;
+    border: none;
+}
+
+.form-name{
+    margin-right: 35em;
+    font-size: 25px;
+}
+.password-link{
+    font-family: Verdana;
+ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.ventajas{
+    font-family: Verdana;
+    font-size: 20px;
+ 
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+button{
+    padding: 1em 5em;
+    background: #7F549C;
+    color: white;
+    border-radius: 2em;
+    font-size: large;
+    border:none;
+
+    
+   
+    
+    
+  }
+button:active{
+    background:#7F549C ;
+    opacity: 70%;
+  }

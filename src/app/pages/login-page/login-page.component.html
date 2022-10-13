@@ -1,0 +1,57 @@
+<app-menu></app-menu>
+
+<body>
+    <div id="contenedor" class="form">
+        <br />
+        <form (ngSubmit)="submit()" #userForm="ngForm">
+            <div class="form-group">
+                <label class="form-name" for="user">
+                    Usuario:
+                </label>
+                <br />
+                <input class="user" id="user" type="text" [(ngModel)]="user.name" name="name" #name="ngModel" required>
+                <div *ngIf="name.invalid && name.dirty" class="alert">
+                    <div *ngIf="name.errors?.['required']">Campo requerido</div>
+                </div>
+            </div>
+            <br />
+            <div>
+                <label class="form-name" for="password">
+                    Contraseña:
+                </label>
+                <br />
+                <input class="password" id="password" type="password" [(ngModel)]="user.password" name="password" #password="ngModel" required minlength="4">
+                <div *ngIf="password.invalid && password.dirty" class="alert">
+                    <div *ngIf="password.errors?.['required']">Campo requerido</div>
+                    <div *ngIf="password.errors?.['minlength']">Mínimo 4 caracteres</div>
+                </div>
+            </div>
+            <br />
+        </form>
+    </div>
+    <div>
+        <label class="password-link">
+            He olvidado mi contraseña
+        </label>
+    </div>
+    <br />
+    <div align="center">
+        <!-- <app-long-button disabled="!userForm .form.valid" title="Iniciar Sesión"></app-long-button> -->
+        <button type="submit" [disabled]="!userForm .form.valid">Entrar</button>
+    </div>
+    <br />
+    <div>
+        <label class="ventajas">
+            Ventajas de registrarse <br /><br />
+            -Acumula puntos <br />
+            -Recibe regalos<br />
+            -Sé el primero en enterarte de las ofertas <br />
+            -Guarda tus productos favoritos
+        </label>
+    </div>
+    <br />
+    <div align="center">
+        <app-long-button title="Registrarse"></app-long-button>
+    </div>
+
+</body>

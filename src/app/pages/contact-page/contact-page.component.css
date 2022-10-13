@@ -1,0 +1,43 @@
+.form{
+    margin-left: 2em;
+}
+
+.consult{
+    width: 23em;
+    height: 15em;
+}
+
+.email{
+    width: 23em;
+    height: 2em;
+}
+
+input{
+    background: #D9D9D9;
+}
+
+.form-name{
+    margin-right: 35em;
+    font-size: 25px;
+}
+.center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.icons{
+    width: 5em;
+    height: 5em;
+}
+
+body{
+    background-color: #F3EEF6;
+    height: 100vh;
+  }
+
+.icons:active{
+
+    opacity: 70%;
+}

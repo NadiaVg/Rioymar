@@ -1,0 +1,20 @@
+body{
+    background-color: #F3EEF6;
+    height: 150vh;
+  }
+.product {
+    float: left;
+    margin-left: 2em;
+}
+.title{
+    font-family: Verdana;
+    font-size: 2em;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subtitle{
+    font-family: Verdana;
+    font-size: 1.8em;
+}

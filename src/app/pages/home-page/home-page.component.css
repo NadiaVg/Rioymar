@@ -1,0 +1,25 @@
+body{
+  background-color: #F3EEF6;
+  height: 100vh;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  img{
+    width: 23em;
+}
+
+.version{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 60%;
+}

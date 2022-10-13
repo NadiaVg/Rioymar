@@ -1,0 +1,22 @@
+.menu {
+    background-color: #C9B4D7;
+    
+   
+
+}
+
+.button_menu{
+    height: 2em;
+    width: 2em;
+
+}
+.spacer {
+    flex: 1 1 auto;
+  }
+  .icon_spacer {
+    flex: 0.05 0.05 auto;
+  }
+
+  .icon-click:hover{
+    opacity: 60%;
+  }

@@ -1,0 +1,12 @@
+mat-icon{
+    position: absolute;
+    height: 50px;
+    width:80px;
+    font-size: 58px;
+    color: antiquewhite;
+    opacity: 80%;
+}
+
+mat-icon.active{
+    color: red;
+}

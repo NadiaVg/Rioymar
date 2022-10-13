@@ -1,0 +1,32 @@
+[
+    {
+        "id": "1",
+        "name": "Jabones",
+        "img": "jabones.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Alcoholes",
+        "img": "alcoholes.jpg"
+    },
+    {
+        "id": "3",
+        "name": "Aceites",
+        "img": "aceites.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Baño",
+        "img": "baño.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Infusiones",
+        "img": "infusiones.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Otros",
+        "img": "otros.jpg"
+    }
+]
